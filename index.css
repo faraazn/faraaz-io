@@ -1,0 +1,38 @@
+body{
+	padding: 0;
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+}
+#gradient {
+	width: 100%;
+	height: 100%; 
+}
+html {
+	height: 100%; }
+#center {
+ 	top: 40%;
+ 	left: 50%;
+ 	margin-right: 50%;
+	border: 0.1875em solid white;
+	position: absolute;
+	margin: 0;
+	padding: 4em;
+	transform: translate(-50%, -50%); 
+}
+h1 {
+	color: white;
+	font-family:  monospace;
+	font-size: 5em;
+	text-align: center;
+	letter-spacing: 0.15em;
+}
+@keyframes rise {
+	0% { 
+		transform: translateY(100%);
+	}
+	to { 
+		transform: translateY(-40%);
+	}
+}
